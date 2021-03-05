@@ -1,0 +1,26 @@
+.search_style {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 10rem;
+}
+.input_style {
+  padding: 20px;
+  width: 60%;
+  background: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  color: rgb(236, 87, 87);
+  background-color: rgba(255,255,255,0.5);
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 15px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  transition: 0.4s ease;
+}
+.input_style:focus{
+  background-color:rgba(0, 0, 0, 0.75);
+  transition: 0.4s ease-in-out;
+}
+
